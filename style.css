@@ -40,3 +40,18 @@ body {
 .page-content h2 {
     text-decoration: underline overline;
 }
+footer {
+    background-color: rgb(154, 154, 226);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(10, 0, 57);
+}
