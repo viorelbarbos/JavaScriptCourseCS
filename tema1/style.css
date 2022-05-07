@@ -1,0 +1,56 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.22);
+}
+
+#page-layout {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+.page-title {
+  border-bottom: 1px solid black;
+}
+.page-title h1 {
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+}
+.page-title img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding: 10px;
+}
+.page-content {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.page-content p {
+  margin: 5px 0;
+  text-align: justify;
+}
+.page-content h2 {
+  text-decoration: underline overline;
+}
+footer {
+  background-color: rgb(154, 154, 226);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(10, 0, 57);
+}
